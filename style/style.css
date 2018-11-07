@@ -145,9 +145,10 @@ table {
 }
 
 body{
-	background-color: #9BCDF6;
+	background-color: #F3F9FE;
 	color:	#2695F2;
 	line-height: 1.5em;
+	margin: 1em;
 }
 
 #index{
@@ -160,6 +161,8 @@ h1{
 	padding-bottom: 0.3em;
 	padding-left: 0.3em;
 	padding-right:0.3em;
+	color: #0284F0;
+	font-weight: bold;
 }
 
 h3{
@@ -168,6 +171,8 @@ h3{
 	padding-bottom: 0.1em;
 	padding-left: 0.1em;
 	padding-right:0.1em;
+	color: #0284F0;	
+	font-weight: bold;
 }
 
 h4{
@@ -176,6 +181,8 @@ h4{
 	padding-bottom: 0.1em;
 	padding-left: 0.1em;
 	padding-right:0.1em;
+	color: #0284F0;
+	font-weight: bold;
 }
 
 p{
@@ -189,13 +196,35 @@ p{
 .holder{
 	border-style: solid;
 	border-color: #2695F2;
+	border-width: 0.2em;
 	background-color: rgba(135,206,250,0.3);
 	float: left;
 	width: 45%;
 	padding-left:1.25%;
 	padding-right:1.25%;
+	text-align: center;
+	line-height: 1.9em;
 }
 
-#signup{
-	
+.signup {
+    background-color: #0284F0; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: .5em;
+	padding-right: .5em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: black;
+}
+
+.signup:hover{
+	background-color: white;
+	color: black;
 }
