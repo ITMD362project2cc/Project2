@@ -90,7 +90,7 @@ table {
 
 .logo{
 	height: 100px;
-	width: 100px:
+	width: 100px;
 }
 
 #index{
@@ -155,9 +155,17 @@ body{
 }
 
 h1{
-	font-size: 2.56em;
+	font-size: 2.56em;	
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	padding-left: 0.3em;
+	padding-right:0.3em;
 }
 
 p{
 	font-size: 1.45em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	padding-left: 0.1em;
+	padding-right:0.1em;
 }
