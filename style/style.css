@@ -151,4 +151,13 @@ table {
 body{
 	background-color: #9BCDF6;
 	color:	#2695F2;
+	line-height: 1.5em;
+}
+
+h1{
+	font-size: 2.56em;
+}
+
+p{
+	font-size: 1.45em;
 }
