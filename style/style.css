@@ -185,3 +185,17 @@ p{
 	padding-left: 0.1em;
 	padding-right:0.1em;
 }
+
+.holder{
+	border-style: solid;
+	border-color: #2695F2;
+	background-color: rgba(135,206,250,0.3);
+	float: left;
+	width: 45%;
+	padding-left:1.25%;
+	padding-right:1.25%;
+}
+
+#signup{
+	
+}
