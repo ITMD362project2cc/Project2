@@ -94,7 +94,7 @@ table {
 }
 
 #index{
-	background-image: img/lima.png;
+	background-image: url("img/lima.png");
 }
 
 .topnav {
