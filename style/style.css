@@ -93,10 +93,6 @@ table {
 	width: 100px;
 }
 
-#index{
-	background-image: url("img/lima.png");
-}
-
 .topnav {
   overflow: hidden;
   background-color: #0284F0;
@@ -154,12 +150,32 @@ body{
 	line-height: 1.5em;
 }
 
+#index{
+	background-image: url("img/lima.png");
+}
+
 h1{
 	font-size: 2.56em;	
 	padding-top: 0.3em;
 	padding-bottom: 0.3em;
 	padding-left: 0.3em;
 	padding-right:0.3em;
+}
+
+h3{
+	font-size: 2.02em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	padding-left: 0.1em;
+	padding-right:0.1em;
+}
+
+h4{
+	font-size: 1.802em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	padding-left: 0.1em;
+	padding-right:0.1em;
 }
 
 p{
