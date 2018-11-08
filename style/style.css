@@ -235,3 +235,8 @@ p{
 a{
 	text-decoration:none;
 }
+
+strong{
+	font-weight: bold;
+	text-decoration: underline;
+}
