@@ -316,3 +316,18 @@ div.mainContent {
 	font-size: 16px;
 	font: bold;
 }
+
+.form input{
+	background-color: #00bfff;
+	color: white;
+	font-size: 1em;
+	font: bold;
+	width: 15%;
+}
+
+.form textarea{
+	background-color: #00bfff;
+	color: white;
+	font-size: 1em;
+	width: 46%;
+}
