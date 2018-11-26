@@ -266,3 +266,53 @@ strong{
 	height: 33%;
 	width: 33%;
 }
+
+.sideContent{
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #f1f1f1;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+.sideContent a{
+	display: block;
+	color: black;
+	padding: 1em;
+	text-decoration: none;
+}
+.sideContent a.active{
+	background: #4CAF50;
+	color:white;
+}
+
+div.mainContent {
+	margin-left: 200px;
+	padding: 1px 1em;
+	height: 1000px;
+
+	border-style: solid;
+	border-color: #2695F2;
+	border-width: 0.2em;
+	background-color: rgba(135,206,250,0.3);
+	float: left;
+	width: 45%;
+	text-align: center;
+	line-height: 1.9em;
+}
+
+#position{
+	font-size: 30px;
+}
+#name{
+	font-size: 15px;
+}
+
+#otherBoard{
+	font-size: 10px;
+}
+#otherBoard p{
+	font-size: 16px;
+	font: bold;
+}
