@@ -125,6 +125,7 @@ table {
   display: none;
 }
 
+/*
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -145,7 +146,7 @@ table {
     display: block;
     text-align: left;
   }
-}
+}*/
 
 body{
 	background-color: #F3F9FE;
@@ -156,6 +157,10 @@ body{
 
 .index{
 	background-image: url("img/lima.png");
+}
+
+.index img{
+	z-index: 1000;
 }
 
 h1{
@@ -330,4 +335,15 @@ div.mainContent {
 	color: white;
 	font-size: 1em;
 	width: 46%;
+}
+
+@media screen and (max-width: 600px){
+	.topnav{
+		float: none;
+		width: 100%;
+	}
+	.holder{
+		float: none;
+		width: 100%;
+	}
 }
