@@ -346,4 +346,14 @@ div.mainContent {
 		float: none;
 		width: 100%;
 	}
+	.announce{
+		width: 80%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.icon{
+		width: 7%;
+		padding-left: 1.5%;
+		padding-right: 1.5%;
+	}
 }
