@@ -155,14 +155,6 @@ body{
 	margin: 1em;
 }
 
-.index{
-	background-image: url("https://raw.githubusercontent.com/ITMD362project2cc/Project2/master/img/lima.png");
-}
-
-.index img{
-	z-index: 1000;
-}
-
 h1{
 	line-height: 1.7em;
 	font-size: 2.56em;	
@@ -356,4 +348,15 @@ div.mainContent {
 		padding-left: 1.5%;
 		padding-right: 1.5%;
 	}
+}
+
+.index{
+	background-image: url("https://raw.githubusercontent.com/ITMD362project2cc/Project2/master/img/lima.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.index .holder{
+	background-color: rgba(135,206,250,0.8);
+	color: white;
 }
