@@ -4,19 +4,49 @@
 	<title>Contact Us</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
-	<div id="header"></div>
-	<div id="nav">
+	<div id="header">
+		<img class="logo" src="img/logo.png" alt="logo">
+		<h1>International Society for Universal Dialogue</h1>
+	</div>
+	
+	<div class="topnav">
 		<ul>
-			<li>Home</li>
-			<li>About Us</li>
-			<li>Announcements</li>
-			<li>Contact</li>
+			<li><a href="https://itmd362project2cc.github.io/Project2/">Home</a></li>
+			<li><a href="https://itmd362project2cc.github.io/Project2/announcements">Announcements</a></li>
+			<li><a href="https://itmd362project2cc.github.io/Project2/gallery"> Gallery </a></li>
+			<li><a href="https://itmd362project2cc.github.io/Project2/about">About Us</a></li>
+			<li><a href="https://itmd362project2cc.github.io/Project2/contact" class="active"> Contact</a></li>
 		</ul>
 	</div>
+
 	<div id="sideContent"></div>
+	
 	<div id="mainContent"></div>
-	<div id="footer"></div>
+		<h6>To contact us please reach us via: </h6>
+		<form id="form" class="form">
+			<div>
+				<input type="text" required="" name="Name" placeholder="Name *">
+				<input type="text" required="" name="Email" placeholder="Email *">
+				<input type="text" name="Subject" placeholder="Subject">
+			</div>
+			<div>
+				<textarea name="Message" placeholder="Message"></textarea>
+			</div>
+			<div class="button">
+				<button type="submit">Send</button>
+			</div>
+		</form>
+
+	<div id="footer">
+		<ul>
+			<li><a class="logo" href="facebook.com"><img class="logo" src="img/facebook.png" alt="Facebook"></a></li>
+			<li><a class="logo" href="linkedIn.com"><img class="logo" src="img/linkedIn.png" alt="LinkedIn" style="width: 30px; height: 30px;"></a></li>
+			<li><a href="plus.google.com"><img class="logo" src="img/googlePlus.jpg" alt="Google Plus" style="width:50px; height: 30px;"></a></li>
+		</ul>
+	</div>
+	
 </body>
 </html>
